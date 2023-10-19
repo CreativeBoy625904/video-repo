@@ -11,9 +11,9 @@
 <body><header id="main">
     <ul class="list">
         <li><a href=""></a> Home</li>
-        <li><a class="left" href=""></a>Contract</li>
-        <li><a class="left" href=""></a>FAQ</li>
-        <li><a class="left" href=""></a>About</li>
+        <li><a href="">Contract</a></li>
+        <li><a  href="">FAQ</a></li>
+        <li><a  href="">About</a></li>
         <li><a class="lef" href="">Youtube</a></li>
     </ul>
 
@@ -157,6 +157,32 @@ sequel titled Skanda 2.[10]</h5>
     </div>
     
 </div>
+
+<div>
+   <p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum accusantium expedita laborum et distinctio cumque? Magnam impedit et ipsa sint molestias eos enim omnis corporis, asperiores quis <span id="dots"> .....</span > <span id="more">voluptatem, earum aliquam dolorem qui tempora placeat similique magni. Impedit voluptas voluptatem facere pariatur
+    numquam perferendis modi sunt natus nulla obcaecati voluptatum excepturi sapiente aut mollitia incidunt asperiores
+    libero voluptate, saepe sequi temporibus.</span>
+   </p>
+   <button onclick="myfunction" id="mybtn"> Read more</button>
+</div>
+<script>
+    function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more";
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less";
+            moreText.style.display = "inline";
+        }
+    }
+</script>
 
 
 

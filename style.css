@@ -1,3 +1,7 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
 .list {
     display: flex;
     justify-content: center;
@@ -8,10 +12,11 @@
 }
 
 
-.left {
+.list li a{
     padding-left: 120px;
+    color: black;
 }
-.lef{
+.lef a{
     padding-left: 120px;
     text-decoration: none;
     color:black ;
@@ -170,4 +175,9 @@ font-family: poppins;
    
     height: 250px;
     width: 600px;
+}
+
+
+#more{
+    display: none;
 }
